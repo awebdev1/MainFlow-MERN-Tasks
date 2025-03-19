@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Roboto;
+    margin: 0px;
+
+}
+h3 {
+    font-size: 24px;
+    margin: 0px;
+}
+.formBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 1px solid black;
+    padding: 30px 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+input {
+    margin: 5px 0;
+    padding: 8px 5px;
+    width: 21em;
+
+}
+
+button {
+    background-color: #026bff;
+    color: #fff;
+    border: 1px solid black;
+    padding: 8px;
+    font-size: 16px;
+    cursor:pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #1a79fe;
+}
